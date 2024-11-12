@@ -35,7 +35,7 @@ export default class App extends React.Component
   {
     return(
     <>
-      <Text>Issue Tracker</Text>
+      <Text style={{ fontSize: 26, textAlign: 'center', marginTop: 5 }}>Issue Tracker</Text>
       <IssueList/>
     </>);
 
