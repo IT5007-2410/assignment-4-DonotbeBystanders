@@ -163,6 +163,8 @@ const width = [40, 80, 80, 80, 80, 80, 200];
 function IssueRow(props) {
   const issue = props.issue;
   {/****** Q2: Coding Starts here. Create a row of data in a variable******/ }
+
+  // const the row Data
   const rowData = [
     issue.id || 'N/A',
     issue.title || 'No Title',
